@@ -32,10 +32,10 @@ const ProductsList = () => {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto p-8">
       <h2 className="text-2xl font-bold mb-4">All Products</h2>
       <Link to="/product-form">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <button className="bg-blue-500 hover:bg-blue-700 m-4 text-white font-bold py-2 px-4 rounded">
           Add New Product
         </button>
       </Link>

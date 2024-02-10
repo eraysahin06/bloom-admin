@@ -7,6 +7,7 @@ import ProductForm from './components/ProductForm/ProductForm';
 import ProductsList from './components/ProductsList/ProductsList';
 import Navbar from './components/Navbar/Navbar';
 
+
 function App() {
   const handleAddProduct = (productData) => {
     // Define the logic to add a product here
